@@ -1,0 +1,37 @@
+¿Qué es una API REST?
+
+Una API de REST, o API de RESTful, es una interfaz de programación de aplicaciones (API o API web) que se ajusta a los límites 
+de la arquitectura REST y permite la interacción con los servicios web de RESTful. El informático Roy Fielding es el creador 
+de la transferencia de estado representacional (REST).
+Las API son conjuntos de definiciones y protocolos que se utilizan para diseñar e integrar el software de las aplicaciones. 
+Suele considerarse como el contrato entre el proveedor de información y el usuario, donde se establece el contenido que se necesita 
+por parte del consumidor (la llamada) y el que requiere el productor (la respuesta).Por ejemplo, el diseño de una API de servicio 
+meteorológico podría requerir que el usuario escribiera un código postal y que el productor diera una respuesta en dos partes: 
+la primera sería la temperatura máxima y la segunda, la mínima.
+En otras palabras, las API le permiten interactuar con una computadora o un sistema para obtener datos o ejecutar una función, 
+de manera que el sistema comprenda la solicitud y la cumpla.
+Imagínelas como si fueran los mediadores entre los usuarios o clientes y los recursos o servicios web que quieren obtener. 
+Con ellas, las empresas pueden compartir recursos e información mientras conservan la seguridad, el control y la autenticación, 
+lo cual les permite determinar el contenido al que puede acceder cada usuario.
+Otra ventaja de las API es que usted no necesita saber cómo se recibe el recurso ni de dónde proviene.
+
+Los **Endpoint **son las rutas por la cual la API recibe una petición. Se llaman “endpoint” (punto final) porque es la última 
+palabra que se escribe en la ruta de la API. Esto lo hacen para poder dividir la API en varias partes y poder consultarla dependiendo 
+de qué consulta le quieres hacer a la api. Normalmente estas están nombradas dependiendo del tipo de información que devuelven. Ej:
+
+https://api.ruta/categorias
+https://api.ruta/imagenes
+https://api.ruta/favoritos
+
+Los query parameters (parámetros de consulta), son atributos adicionales que le podemos pasar al endpoint para poder filtrar, 
+especificar o limitar la información que queremos obtener del API en ese endpoint. La forma de pasarselo es agregando al final 
+del endpoint un signo de interrogación “?”, y luego ingresar el nombre del parámetro y su valor tipo “key=value”. Se pueden 
+pasar varios parámetros al tiempo separandolos por un signo ampersand “&”. Ej:
+
+https://api.ruta/categorias?pagina=3&cantidad=10&orden=ascendente
+
+1XX Respuestas Afirmativas
+2XX Respuestas satisfactorias
+3XX Re-direcciones
+4XX Error del cliente
+5XX Error de servidor

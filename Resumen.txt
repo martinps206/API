@@ -1,0 +1,47 @@
+Prácticas recomendadas para las pruebas de API
+
+Las API's son, en esencia, una herramienta de codificación que permite que su 
+aplicación se comunique con otras aplicaciones. Las API le permiten integrar 
+aplicaciones de terceros en su trabajo o usar sus propios datos y procesos en 
+la nube.
+
+En el proceso de desarrollo actual, las API se han convertido en una parte 
+esencial de las aplicaciones web y móviles. Permiten la comunicación de 
+diferentes componentes de estos sistemas y lo ayudan a acceder a datos y 
+servicios.
+
+Una cosa muy importante a tener en cuenta es que cuando se trata de API, debe 
+asegurarse de que todo funcione correctamente y de recibir los comentarios 
+correctos antes de integrarlos en sus aplicaciones. Es por eso que probarlos 
+es esencial.
+
+Por esta razón, una parte vital de probar cualquier tipo de software requiere 
+evaluar si hay alguna forma de romper la aplicación. Para garantizar un cierto 
+nivel de continuidad al usar una API de varias maneras simultáneamente, debe 
+realizar pruebas de API.
+
+¿Qué es la prueba de API?
+La prueba de API es un proceso que verifica que una API cumpla con los requisitos 
+establecidos. Lograr este objetivo no es una tarea fácil y hay muchas maneras 
+en que un probador puede hacerlo de manera efectiva.
+
+Las pruebas manuales de API implican interactuar directamente con la API 
+utilizando herramientas como Postman , API Tester o cualquier otra herramienta 
+en línea disponible.
+Las pruebas de API automatizadas utilizan un software especializado para enviar 
+solicitudes a la API y luego comparan los resultados con el comportamiento 
+esperado.
+
+Principios de prueba de API
+
+Estos son algunos principios que debes tener en cuenta:
+
+Las pruebas de API deben ser parte de su proceso continuo de integración y entrega.
+Las pruebas de API deben ser fáciles de mantener y escribir.
+Una API bien diseñada hará que sus pruebas sean más fáciles de escribir.
+Debe probar en el límite de su sistema.
+Mantenga sus pruebas pequeñas y enfocadas.
+Asegúrese de que sus pruebas sean deterministas.
+Ejecute sus pruebas en paralelo para la velocidad.
+Utilice las herramientas disponibles y de libre acceso para simplificar las pruebas de API.
+
